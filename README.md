@@ -4,9 +4,6 @@
 
 ```sh
 tea +python.org python version.py | tea jq -r '.Version'
-```
-
-```sh
 tea --env python datetimes.py
 ```
 
